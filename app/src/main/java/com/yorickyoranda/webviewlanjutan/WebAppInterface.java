@@ -7,8 +7,8 @@ import android.webkit.JavascriptInterface;
 import android.widget.Toast;
 
 public class WebAppInterface {
-    private Activity _activity;
-    private Context _context;
+    protected Activity _activity;
+    protected Context _context;
 
     public WebAppInterface(Context context, Activity activity) {
         _context = context;
